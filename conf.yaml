@@ -8,7 +8,7 @@
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
+  json_url: "https://blog.00000106.xyz/friend.json"
   article_count: 5
   merge_result:
     enable: false
@@ -21,7 +21,7 @@ spider_settings:
 #   subject:            邮件主题
 #   body_template:      邮件正文的 HTML 模板文件
 email_push:
-  enable: false
+  enable: true
   to_email: recipient@example.com
   subject: "今天的 RSS 订阅更新"
   body_template: "rss_template.html"
@@ -36,12 +36,12 @@ email_push:
 #     title:            你的博客标题，如果启用了推送，用于生成邮件主题
 rss_subscribe:
   enable: true
-  github_username: willow-god
+  github_username: Elegy17
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: https://blog.00000106.xyz/
   email_template: "./push_templates/default.html"
   website_info:
-    title: "清羽飞扬"
+    title: "浮日誌"
 
 # SMTP 配置
 # 解释：使用其中的相关配置实现上面两种功能，若无推送要求可以不配置，请将以上两个配置置为false
@@ -50,8 +50,8 @@ rss_subscribe:
 #   port：              SMTP 端口号
 #   use_tls：           是否使用 tls 加密
 smtp:
-  email: notify@liushen.fun
-  server: smtp.exmail.qq.com
+  email: Xeran@00000106.xyz
+  server: smtp.resend.com
   port: 465
   use_tls: true
 
@@ -60,7 +60,7 @@ smtp:
 #   name:               友链名称
 #   url:                指定的RSS地址
 specific_RSS:
-   - name: "阮一峰"
-     url: "http://feeds.feedburner.com/ruanyifeng"
+   - name: ""
+     url: ""
   # - name: "無名小栈"
   #   url: "https://blog.imsyy.top/rss.xml"
